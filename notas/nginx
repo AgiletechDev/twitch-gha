@@ -3,3 +3,21 @@
 3 se creo el virtual host pero falta generar link simbolico a sites-enable (por falla de comando
 4 se probo en la direción server.agile-github.com.pe falla por el punto anteior.
 5 se instalo el svc como demonio para mantener en escucha al runner del proyecto twitch_hga
+
+COMANDOS SVC : MONITOREAR CAMBIOS EN REPOSITORIO GITHUB
+
+gallark@webcorp:~/github/actions-runner$ ls
+bin        env.sh     run-helper.cmd.template  run.sh         svc.sh
+config.sh  externals  run-helper.sh            runsvc.sh
+_diag      frontend   run-helper.sh.template   safe_sleep.sh
+gallark@webcorp:~/github/actions-runner$ sudo ./svc.sh
+[sudo] password for gallark:
+
+Usage:
+./svc.sh [install, start, stop, status, uninstall]
+Commands:
+   install [user]: Install runner service as Root or specified user.
+   start: Manually start the runner service.
+   stop: Manually stop the runner service.
+   status: Display status of runner service.
+   uninstall: Uninstall runner service.
