@@ -1,0 +1,4 @@
+1 se creo el runner en el servidor ubu (instalo y configuro en carpeta github de gallark)
+2 se configuro en github actions y registro el servidor ubu ACTIVO en github(settings)
+3 se creo el virtual host pero falta generar link simbolico a sites-enable (por falla de comando
+4 se probo en la direción server.agile-github.com.pe falla por el punto anteior.
